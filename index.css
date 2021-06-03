@@ -1,0 +1,97 @@
+body{
+margin:0;
+    background-color: rgb(54, 5, 54);
+}
+nav{
+  float: right;
+  width: auto;
+  position: relative;
+  bottom: 30px;
+  right: 20px;
+}
+#logotitle{
+    border: thistle solid;
+    font-weight: bolder;
+    background-color: rgba(126, 134, 179, 0.219);
+    height: 90pxp;
+    padding: 0%;
+    margin:0;
+    border-radius: 0 10px 0px 10px;
+    padding: 5px;
+}
+nav a{
+    background-color: rgb(98, 102, 112);
+    font-size: x-large;
+    color:white;
+    padding: 6px;
+    border-radius: 3px;
+    text-decoration: none;
+    border-radius: 0 5px 5px 5px;
+}
+.nav{
+display:block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+    align-items: center;
+   padding: 7px;
+    height: 50px;
+    box-shadow: black 0 0 5px;
+    /* background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.973),purple); */
+}
+header{
+    width: auto;
+    font-size: xx-large;
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cnfo{
+margin: 30px;
+border-radius: 30px;
+    background-image: linear-gradient(to bottom right, rgb(42, 50, 75),purple);
+    width: 45%;
+    height: 110vh;
+    text-align: center;
+    box-shadow: rgb(0, 0, 0) 0 5px 25px;
+}
+.form-control,select{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .formsec{
+      margin-top: 60px;
+      font-size: 25px;
+      font-weight: bolde;
+      display: flex;
+
+  }
+  .logo{
+      width:50%;
+      display: flex;
+      justify-content: center; 
+  }
+  #logo{
+      position: fixed;
+      justify-self:center;
+      height: 450px;
+      top: 170px;
+      margin-left: 40px;
+      box-shadow: rgb(0, 0, 0) 0 5px 25px;
+  }
+.cnfo form{
+position: relative;
+margin:10px ;
+color: white;
+text-shadow: black 0 0 5px;
+}
+.Computer{
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    left: 30px;
+}

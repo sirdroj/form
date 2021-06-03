@@ -1,24 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    link:
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
-<body>
-    <div class="contact-form">
 
-        <form id="contact-form" method="post" action="contact-form-handler.php">
-            <input type="text" class="form-control" placeholder="your name" required>
-            <br>
-            <input type="email" name="email" class="form-control" placeholder="your email" required>
-            <br>
-            <textarea name="message" class="form-control" placeholder="message" rows="4" required></textarea> 
-            <br>
-            <input type="submit" class="form-control submit" value="send message">
-        </form>
+<body>
+    <div class="nav">
+
+        <header>
+            <span id="logotitle">Filmi Bander</span>
+        </header>
+    <nav>
+        <a href="#">home</a>
+        <a href="#">register</a>
+    </nav>
     </div>
-    </body>
+
+    <div class="formsec">
+        <div class="cnfo">
+            <form id="contact-form" method="post" action="">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+                <br>
+                <input type="email" name="email" class="form-control" placeholder="your email" required>
+                <br>
+                <label for="state">state/Union Territorie</label><br>
+                <select id="state" class="form-control" name="state">
+                    <option value="bihar">bihar</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="maharastra">maharastra</option>
+                    <option value="West Bengal">West Bengal</option>
+                    <option value="Kerela">Kerela</option>
+                </select>
+                <br>
+                <input type="text" class="form-control" placeholder="Which City are you currently in" required>
+                <br>
+                <input type="text" class="form-control" name="occupation" placeholder="Occupation" required>
+                <br>
+                <input type="number" class="form-control" name="age" placeholder="age" required>
+                <br>
+                <textarea name="message" class="form-control" placeholder="message" rows="4" required></textarea>
+                <br>
+                <div class="Computer">
+                    <label for="havecomputer">Do you have a Computer</label>
+                    <br>
+                    <input type="radio" id="compYes" name="havecomputer" value="yes">
+                    <label for="compYes">Yes</label><br>
+                    <input type="radio" id="compNo" name="havecomputer" value="no">
+                    <label for="compNo">No</label><br>
+                </div>
+                <input type="number" name="phonenumber" class="form-control" placeholder="Phone number" value="+91"
+                    required>
+                <br>
+                <input type="submit" value="submit" class="form-control">
+            </form>
+            <!-- <img src="pp.jpeg" alt="filmi bander lopgo"> -->
+        </div>
+        <div class="logo">
+            <img src="pp.jpeg" id="logo" alt="">
+        </div>
+    </div>
+
+</body>
+
 </html>
